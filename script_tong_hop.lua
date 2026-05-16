@@ -95,6 +95,27 @@ Tabs.Script:Button({
 })
 
 Tabs.Script:Button({
+    Title = "🎆 LongHiHi Hub V4.1",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV4.1.0/refs/heads/main/MainV4.1.0"))()
+    end
+})
+
+Tabs.Script:Button({
+    Title = "💸 Khá Bảnh Hub V3",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/KhaBanhHubV3New/refs/heads/main/MainV3.lua.txt"))()
+    end
+})
+
+Tabs.Script:Button({
+    Title = "📦 Auto Chest V1",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/Auto-Chest/refs/heads/main/MainV1.Luau"))()
+    end
+})
+
+Tabs.Script:Button({
     Title = "🌙 Night Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
